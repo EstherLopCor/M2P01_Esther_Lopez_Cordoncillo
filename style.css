@@ -1,0 +1,39 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img {
+    max-width: 60px;
+}
+
+.text {
+    color: #333FFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.list__content {
+    padding: 0 20px;
+}
+
+.main {
+    display: flex;
+    padding: 20px;
+}
